@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c6baba;
+}
+
+header {
+    background-color:#9A6620;
+    color: white;
+    padding: 1em 0;
+    text-align: start;
+}
+
+header .logo h1 {
+    margin: 0px;
+   padding-top: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #204247;
+    color: white;
+    padding: 5em 0;
+    text-align: center;
+}
+
+section {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex-basis: 45%;
+    margin: 1em 0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 1em 0 0.5em;
+}
+
+.product p {
+    margin: 0.5em 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: flex;
+    margin: 1em 0 0.5em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7em 2em;
+    background-color: #f38c0780;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+   
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex-basis: 20%;
+    margin: 1em 0;
+}
+
+.footer-section h3 {
+    margin-bottom: 1em;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin: 0.5em 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 2em;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    transition: fill 0.3s;
+}
+
+.social-icon:hover {
+    fill: #fff;
+}
+
+/*@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}*/
+
+/*.social-icon path {
+    animation: spin 5s linear infinite;
+}
+*/
